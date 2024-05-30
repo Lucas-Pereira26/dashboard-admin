@@ -24,8 +24,7 @@ export const SideBar = () => {
             <div className="sidebar-top relative flex items-center px-3.5 py-5">
                 {mounted && <SideBarLogo />}
                 <h3 className={classNames("pl-2 font-bold text-2xl min-w-max text-sidebar-foreground",
-                    { hidden: toggleCollapse })}>
-                   Admin Dashboard</h3>
+                    { hidden: toggleCollapse })}> Admin Dashboard</h3>
             </div>
             <nav className="flex flex-col gap-2 transition duration-300 ease-in-out">
                 <div className="flex flex-col gap-2 px-4">

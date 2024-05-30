@@ -37,11 +37,7 @@ export function ThemeSwitcher() {
                 <DropdownMenuItem onClick={() => setTheme("dark")}>
                     <span>Dark</span>{isActive('dark')}
                 </DropdownMenuItem>
-                <DropdownMenuItem onClick={() => setTheme("custom")}>
-                    <span>Custom</span>{theme === 'custom' && <CheckIcon
-                        className='ml-2 h-4 w-4'
-                    />}
-                </DropdownMenuItem>
+                
             </DropdownMenuContent>
         </DropdownMenu>
     )
